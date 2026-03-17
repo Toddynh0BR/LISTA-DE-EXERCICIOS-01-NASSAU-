@@ -14,13 +14,38 @@
 #forma: A-álcool, G-gasolina), calcule e imprima o valor a ser pago pelo cliente sabendo-se que o preço do litro
 #da gasolina é R$ 3,30 e o preço do litro do álcool é R$ 2,90.
 
+print('Digite o combustível desejado(A: Álcool, G: Gasolina): ')
+
 while True:
-    print('Digite o combustível desejado(A: Álcool, B: Gasolina):')
     tipo = input('Tipo: ').strip().upper()
 
     if tipo != 'A' and tipo != 'G':
         print('Digite um tipo válido(A ou G).')
         continue
 
+    valor = 2.9 if tipo == 'A' else 3.3
     print('Combustivel escolhido:', 'Álcool' if tipo == 'A' else 'Gasolna')
     break
+
+print('Digite quantos litros você deseja: ')
+while True:
+    litrosString = input('Litros: ').replace(',', '.').strip()
+
+    if not litrosString.replace('.', '.', 1).isdigit():
+       print('Digite um número válido.')
+       continue
+
+    litros = float(litrosString)
+    break
+
+desconto = 0
+
+if litros <= 20:
+  desconto = 0.03 if valor == 2.9 else 0.04
+else:
+   desconto = 0.05 if valor == 2.9 else 0.06
+
+preco = (litros * valor)
+precoComDesconto = preco - (desconto * preco)
+
+print(f'Valor total: R${str(precoComDesconto).replace('.', ',')} Reais')
