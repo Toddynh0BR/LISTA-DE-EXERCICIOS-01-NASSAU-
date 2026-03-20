@@ -9,9 +9,9 @@ Data:  27/03/2026
 - Matheus Augusto Gomes da Silva - **01894714**
 - Guilherme Fortaleza de Souza - **01877047**
 - Kauãn Felipe da Silva Melo - **01892125**
-- Áquila Pedro -
-- Gustavo Nascimento - 
-- Thiago -
+- Áquila Pedro Joaquim Oliveira da Silva - **01890876**
+- Gustavo Nascimento da Silva - **01866201**
+- Thiago - ****
 
 A lista consiste em 10 exercícios feitos em grupo (2 exercícios para cada aluno)
 utilizando as linguagens de programação portugol ou python para desenvolver um codigo que execute oque se pede no exercício.
