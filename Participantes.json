@@ -2,32 +2,38 @@
  {
   "nome": "Kauãn Felipe da Silva Melo",
   "matricula": "01892125",
-  "questões": ["1", "4"]
+  "questões": ["1", "4"],
+  "github": ""
  },
  {
-  "nome": "Thiago",
-  "matricula": "",
-  "questões": ["2", "3"]
+  "nome": "Thiago Henrique Pereira",
+  "matricula": "01892849",
+  "questões": ["2", "3"],
+  "github": ""
  },
  {
   "nome": "Guilherme Fortaleza de Souza",
   "matricula": "01877047",
-  "questões": ["4", "5"]
+  "questões": ["4", "5"],
+  "github": ""
  },
  {
   "nome": "Áquila Pedro Joaquim Oliveira da Silva",
   "matricula": "01890876",
-  "questões": ["5", "10"]
+  "questões": ["5", "10"],
+  "github": "Aquila-pedro"
  },
  {
   "nome": "Gustavo Nascimento da Silva",
   "matricula": "01866201",
-  "questões": ["6", "7"]
+  "questões": ["6", "7"],
+  "github": ""
  },
  {
   "nome": "Matheus Augusto Gomes da Silva",
   "matricula": "01894714",
-  "questões": ["8", "9"]
+  "questões": ["8", "9"],
+  "github": "Toddynh0BR"
  }
 ]
 
