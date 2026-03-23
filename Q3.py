@@ -8,3 +8,23 @@
 #funcionário,  que  deverá  ser  acrescido  das  horas  extras,  caso  tenham  sido  trabalhadas  (considere  que  o  mês 
 #possua 4 semanas exatas).
 
+#Sem Chat GPT kkk demorei 20 minutos pq esqueci de calcular a diferença kkk
+
+#definindo o salário padrão
+salario = 1000
+#perguntando ao usuario quantas horas trabalhou
+horastrabalhadas = int(input("Quantas horas você trabalhou no mês?: "))
+#jornada de trabalho padrão 
+jornadadetrabalho = 160
+#quanto vai ganhar por o extra
+extra_por_hora = salario / jornadadetrabalho * 1.5
+#calculo da diferença
+diferença = horastrabalhadas - jornadadetrabalho
+
+
+#definindo o resultado e print final
+if horastrabalhadas == 160:
+    print(f"Você receberá: R$ {salario}, por suas {horastrabalhadas} horas de trabalho no mês.")
+elif horastrabalhadas > 160:
+    salario = salario + extra_por_hora * diferença
+    print(f"Você receberá: R$ {salario}, por suas {horastrabalhadas} horas de trabalho. no mês.")
